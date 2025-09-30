@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Facade.src
 {
-    internal class Animal
+    internal abstract class Animal
     {
         public Animal() { }
-        public void makeNoise()
-        {
+        public abstract void makeNoise();
 
-        }
-        public void walk( )
-        {
 
-        }
+
+        public abstract void walk();
+        
+
+        
     }
 }
