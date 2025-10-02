@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Facade.src
+﻿namespace Facade.src
 {
     internal class Tuna : Animal
     { 
@@ -13,13 +7,13 @@ namespace Facade.src
         override
         public void move()
         {
-
+            Console.WriteLine("Tuna swims");
         }
 
         override
         public void makeNoise()
         {
-
+            Console.WriteLine("Blob Blob");
         }
     }
 }

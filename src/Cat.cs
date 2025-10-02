@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Facade.src
+﻿namespace Facade.src
 {
     internal class Cat : Animal
     {
         public Cat() { }
+
         override
         public void move()
         {
-
+            Console.WriteLine("Cat runs");
         }
 
         override
         public void makeNoise()
         {
-
+            Console.WriteLine("Meow");
         }
     }
 }
