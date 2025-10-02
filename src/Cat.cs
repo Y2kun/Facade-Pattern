@@ -10,7 +10,7 @@ namespace Facade.src
     {
         public Cat() { }
         override
-        public void walk()
+        public void move()
         {
 
         }

@@ -11,7 +11,7 @@ namespace Facade.src
         public Crow() { }
 
         override
-        public void walk()
+        public void move()
         {
 
         }

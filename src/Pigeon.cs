@@ -11,7 +11,7 @@ namespace Facade.src
         public Pigeon() { }
 
         override
-        public void walk()
+        public void move()
         {
 
         }

@@ -12,7 +12,7 @@ namespace Facade.src
         
         
         override
-        public void walk()
+        public void move()
         {
 
         }
