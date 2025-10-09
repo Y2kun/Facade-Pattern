@@ -10,7 +10,7 @@ namespace Facade
             FacadeLand landFacade = new FacadeLand();
             landFacade.MakeLandAnimalsNoise();
             landFacade.MoveLandAnimals();
-            Console.WriteLine("Land Animals:");
+            Console.WriteLine("Sea Animals:");
             FacadeSea seaFacade = new FacadeSea();
             seaFacade.MakeSeaAnimalsNoise();
             seaFacade.MoveSeaAnimals();
