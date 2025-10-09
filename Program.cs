@@ -6,9 +6,18 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            AnimalFacade animalFacade = new AnimalFacade();
-            animalFacade.MakeAllAnimalsNoise();
-            animalFacade.MoveAllAnimals();
+            Console.WriteLine("Land Animals:");
+            FacadeLand landFacade = new FacadeLand();
+            landFacade.MakeLandAnimalsNoise();
+            landFacade.MoveLandAnimals();
+            Console.WriteLine("Land Animals:");
+            FacadeSea seaFacade = new FacadeSea();
+            seaFacade.MakeSeaAnimalsNoise();
+            seaFacade.MoveSeaAnimals();
+            Console.WriteLine("Air Animals:");
+            FacadeAir airFacade = new FacadeAir();
+            airFacade.MakeAirAnimalsNoise();
+            airFacade.MoveAirAnimals();
         }
     }
 }
